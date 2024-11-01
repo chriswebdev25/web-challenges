@@ -1,18 +1,20 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: border-box: 150px;
 }
 
 body {
   font-family: system-ui;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 /* Put a selector here to select div elements (see index.html). */
-SELECTOR HERE {
-  font-family: cursive;
+div {
+  font-family: bold
   padding: 8px;
+  background-color: hotpink;
+  p {text-emphasis-color: white;}
 
   /* Set the height and the width of the box to 150px. */
 
